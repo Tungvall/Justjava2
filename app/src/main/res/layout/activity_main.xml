@@ -16,7 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Order Coffee"
+            android:text="Order Coffee YAAAAAO
+"
             android:textSize="30dp" />
 
         <LinearLayout
