@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
-TEST YAOP
+Nu ska allt fungera som det ska. Vad roligt va
 import java.text.NumberFormat;
 
 
