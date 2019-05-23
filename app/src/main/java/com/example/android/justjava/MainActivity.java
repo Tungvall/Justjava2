@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
-Nu ska allt fungera som det ska. Vad roligt va
 import java.text.NumberFormat;
 
 
@@ -23,9 +22,6 @@ public class MainActivity extends AppCompatActivity {
         displayQuantity(quantity);
 
     }
-
-
-
 
     public void decrament(View view) {
         if (quantity == 0) {
@@ -48,10 +44,13 @@ public class MainActivity extends AppCompatActivity {
         String priceMessage = "Total: $" + price;
         priceMessage = priceMessage + "\nThank you!";
         displayMessage(priceMessage);
-        calculatePrice;
+        calculatePrice();
 
     }
 
+    private void calculatePrice() {
+        int price = quantity * 5;
+    }
 
     /**
      * Method Displays the given quantity value on the screen.
